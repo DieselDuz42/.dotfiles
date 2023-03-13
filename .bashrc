@@ -119,4 +119,4 @@ fi
 export WORKON_HOME=$HOME/.virtualenvs
 export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
 source /usr/local/bin/virtualenvwrapper.sh
-alias config='/usr/bin/git --git-dir=/home/johno/.cfg/ --work-tree=/home/johno'
+alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
